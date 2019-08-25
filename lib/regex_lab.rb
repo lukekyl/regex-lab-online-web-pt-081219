@@ -16,5 +16,5 @@ end
 
 def valid_phone_number?(phone)
   p phone.match(/^\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/)
-  (^)
+ / ^\(?\d{3}\(?[\s.-]?\d{3}[\s.-]?\d{4} /
 end
